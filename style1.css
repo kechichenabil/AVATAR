@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  body {
+    background: linear-gradient( to right, #01022d, #000000e8) no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .container{
+   background: linear-gradient(to right,#01022de5 30% ,transparent), url(./imag/ca-times.brightspotcdn.webp);
+    width: 1200px;
+    height: 85vh;
+    margin: auto;
+    padding: 10px 80px;
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: .5s;
+ }
+
+ .container:hover{
+   transition: .5s;
+   box-shadow: 3px 3px 40px white;
+ }
+
+ .container1 .logo{
+    font-size: 1.9em;
+    font-weight: 700;
+ }
+
+.container nav a{
+   position: relative;
+   text-decoration: none;
+   font-size: 1.3em;
+   font-weight: 500;
+   margin-left: 45px;
+}
+
+.container nav a::after{
+   content: "";
+   position: absolute;
+   border: 2px solid white;
+   width: 100%;
+   left: 0;
+   bottom: -7px;
+   border-radius: 20px;
+   transform: scale(0);
+   transition: .5s;
+}
+
+.container a:hover::after{
+   transform: scale(1);
+   transition: .5s;
+}
+
+ .container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 110px;
+ }
+
+ .container2 .logo1{
+    padding-bottom: 20px;
+    font-size: 4em;
+    font-weight: 700;
+ }
+
+ .container2 p{
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-bottom: 30px;
+    max-width: 400px;
+ }
+
+ .container2 a{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: .5s;
+    transform: scale(0);
+ }
+
+ .container2 a:hover{
+   transform: scale(1);
+   transition: .5s;
+   background-color: white;
+   color: black;
+ }
+ 
